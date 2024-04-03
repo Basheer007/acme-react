@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+    overflow: hidden;
+}
+
+.gradient {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent), url('hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.gradient-banner {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent), url('banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.max-container {
+    @apply max-w-5xl mx-auto
+}
