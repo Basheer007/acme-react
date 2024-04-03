@@ -4,7 +4,7 @@ import Products from "./Products";
 const Cart = () => {
   const products = [
     {
-      img: "white-tent.jpg",
+      img: "./white-tent.jpg",
       productName: "white Tent",
       cost: "$ 200.00 USD",
     },
