@@ -17,8 +17,8 @@ export default {
         card: "#222222",
       },
       backgroundImage: {
-        hero: "url(hero.jpg)",
-        banner: "url(banner.jpg)",
+        hero: "url(./hero.jpg)",
+        banner: "url(./banner.jpg)",
       },
     },
     fontFamily: {
