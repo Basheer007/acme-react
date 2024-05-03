@@ -1,20 +1,22 @@
 import React from "react";
 import Products from "./Products";
-
+import tent from "../assets/white-tent.jpg";
+import tumbler from "../assets/Tumbler.jpg";
+import backpack from "../assets/back-pack.jpg";
 const Cart = () => {
   const products = [
     {
-      img: "./white-tent.jpg",
+      img: tent,
       productName: "white Tent",
       cost: "$ 200.00 USD",
     },
     {
-      img: "Tumbler.jpg",
+      img: tumbler,
       productName: "Tin Coffee Tumbler",
       cost: "$ 35.00 USD",
     },
     {
-      img: "back-pack.jpg",
+      img: backpack,
       productName: "Blue Canvas Pack",
       cost: "$ 95.00 USD",
     },
@@ -23,7 +25,7 @@ const Cart = () => {
     <>
       <section>
         {/* container */}
-        <div className="max-w-5xl mx-auto  h-full  px-4">
+        <div className="max-w-5xl mx-auto  h-full  px-4" id="shop">
           <article>
             <div className=" flex flex-col py-4 ">
               <h3 className=" font-sens">SHOP PRODUCTS</h3>

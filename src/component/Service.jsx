@@ -1,5 +1,5 @@
 import React from "react";
-
+import shopBanner from "../assets/shop-banner.jpg";
 const Service = () => {
   return (
     <>
@@ -10,7 +10,7 @@ const Service = () => {
             <section className="bg-black text-white font-sens py-9 px-5 md:gap-5 grid md:grid-cols-2 ">
               <div className="  md:w-[351px]  border-4 bg-red-500  md:relatvie">
                 <img
-                  src="shop-banner.jpg"
+                  src={shopBanner}
                   alt="shop-banner"
                   className=" rounded md:min-h-[440px] object-cover object-center "
                 />

@@ -1,12 +1,14 @@
 import React from "react";
 import Cardcircle from "./Cardcircle";
-
+import circle from "../assets/Circle.svg";
+import rectangle from "../assets/Rectangle.svg";
+import triangle from "../assets/Triangle.svg";
 export const Support = () => {
   const cards = [
     {
       id: 1,
       cardName: "shop\nproduct",
-      img: "Circle.svg",
+      img: circle,
       discription: `Our full product line is still 
       available online here on our site! Getting outside and hiking is still 
       something you can do. Get your gear now!`,
@@ -14,7 +16,7 @@ export const Support = () => {
     {
       id: 2,
       cardName: "Donate",
-      img: "Triangle.svg",
+      img: triangle,
       discription: `Since we've changed the way we operate 
       to online only, and to ensure your safety, not all our
       staff is working. Donate to keep them afloat.`,
@@ -22,7 +24,7 @@ export const Support = () => {
     {
       id: 3,
       cardName: "Buy\nGift cards",
-      img: "Rectangle.svg",
+      img: rectangle,
       discription: `Have all the outdoor gear you need for now? Buy
        a gift card and use it later or share it with friends and family.`,
     },
@@ -30,7 +32,7 @@ export const Support = () => {
 
   return (
     <>
-      <main className="bg-white">
+      <main className="bg-white" id="about">
         {/* container */}
 
         <section className="mx-auto max-w-5xl   h-full">
@@ -76,11 +78,3 @@ export const Support = () => {
     </>
   );
 };
-
-// cardName={card.cardName.split("\n").map((line, i) => (
-//   <React.Fragment key={i}>
-//     {line}
-//     {i !== card.cardName.split("\n").length - 1 && <br />}{" "}
-//     {/* Insert <br /> except after the last line */}
-//   </React.Fragment>
-// ))}

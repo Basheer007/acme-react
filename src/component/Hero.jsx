@@ -3,7 +3,7 @@ import React from "react";
 export const Hero = () => {
   return (
     <>
-      <main className="gradient h-dvh">
+      <main className="gradient h-dvh " id="home">
         <section className="max-w-5xl mx-auto h-full  flex items-end px-4">
           <div className=" mb-24">
             <h1 className="text-white font-sens text-3xl font-bold mb-2 tiny:text-4xl sm:text-6xl lg:text-7xl">
